@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+:root {
+  --color-black: #111111;
+  --color-yellow: #facc15;
+  --color-yellow-dark: #eab308;
+  --color-yellow-light: #fef9c3;
+  --color-white: #ffffff;
+  --color-background: #fafafa;
+  --color-text: #111111;
+}
+
+/* Global */
+body {
+  margin: 0;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Subtle Grid Background */
+.grid-background {
+  background-image:
+    linear-gradient(rgba(17, 17, 17, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17, 17, 17, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
