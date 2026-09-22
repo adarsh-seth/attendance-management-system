@@ -10,7 +10,7 @@
   --color-text: #111111;
 }
 
-/* Global */
+
 body {
   margin: 0;
   background-color: var(--color-background);
